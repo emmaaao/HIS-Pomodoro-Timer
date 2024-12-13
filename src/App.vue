@@ -1,15 +1,13 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <PomodoroTimer/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import PomodoroTimer from './components/PomodoroTimer.vue';
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    PomodoroTimer
   }
 }
 </script>
@@ -24,3 +22,5 @@ export default {
   margin-top: 60px;
 }
 </style>
+
+
