@@ -2,7 +2,7 @@
   "name": "pomodoro-app",
   "version": "1.0.0",
   "private": true,
-  "description": "My pomodoro app as a package",
+  "description": "Pomodoro app as a package",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "files": [
