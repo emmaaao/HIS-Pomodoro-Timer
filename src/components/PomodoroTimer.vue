@@ -27,6 +27,9 @@
       <button @click="resetTimer">Reset</button>
     </div>
   </div>
+  <footer class="footer">
+    <p>This project is licensed under the GPL License. For more details, visit <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL License</a>.</p>
+  </footer>
 </template>
 
 <script>
@@ -188,6 +191,23 @@ button:disabled {
   cursor: not-allowed;
 }
 
+.footer {
+  padding: 1px;
+  background-color: #333;
+  color: white;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.footer a {
+  color: #6384c7;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 768px) {
   .timer-display {
     font-size: 2.5rem;
@@ -206,6 +226,10 @@ button:disabled {
   button {
     font-size: 0.9rem;
     padding: 8px 12px;
+  }
+
+  .footer {
+    font-size: 0.8rem;
   }
 }
 
@@ -230,6 +254,10 @@ button:disabled {
   button {
     font-size: 0.8rem;
     padding: 6px 10px;
+  }
+
+  .footer {
+    font-size: 0.7rem;
   }
 }
 </style>
