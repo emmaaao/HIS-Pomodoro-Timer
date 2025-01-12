@@ -28,7 +28,7 @@
     </div>
   </div>
   <footer class="footer">
-    <p>This project is licensed under the GPL License. For more details, visit <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL License</a>.</p>
+    <p>This project is licensed under the GPL & MIT License. For more details, visit <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL License</a>.</p>
   </footer>
 </template>
 
